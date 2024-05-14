@@ -1,5 +1,9 @@
 END to END Python project using AWS
-Step 1 - Github account creation and conda environment setup
+Overview :- 
+a) New Environment Creation
+b) Setup.py
+c)Requirment.txt
+Step 1 - Github account creation and conda environment setup //set up git repository
 Step 2 - create readme file in visual code and add is to git using git add README.md
             git init
             git add README.md
@@ -12,3 +16,8 @@ Step 2 - create readme file in visual code and add is to git using git add READM
             git config --global user.name "Your Name"
 step 3 - Create gitignore file in git and pull it from origin
             git pull
+
+ # We have also added "-e ." because everytime it runs it will trigger setup.py 
+  # readlines will read requirment.txt 
+        
+ # when we use readlines , \n gets added in the requiremnts so we are replacing the \n
